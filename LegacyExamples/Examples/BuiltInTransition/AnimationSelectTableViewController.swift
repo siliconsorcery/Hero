@@ -22,7 +22,7 @@
 
 import UIKit
 import Hero
-import ChameleonFramework
+//import ChameleonFramework
 
 class AnimationSelectHeaderCell: UITableViewCell {
   @IBOutlet weak var backButton: UIButton!
@@ -51,8 +51,8 @@ class AnimationSelectTableViewController: UITableViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    tableView.backgroundColor = UIColor.randomFlat
-    labelColor = UIColor(contrastingBlackOrWhiteColorOn: tableView.backgroundColor!, isFlat: true)
+    tableView.backgroundColor = .red // UIColor.randomFlat
+    labelColor = .white //UIColor(contrastingBlackOrWhiteColorOn: tableView.backgroundColor!, isFlat: true)
     let screenEdgePanGR = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(handlePan(gr:)))
     screenEdgePanGR.edges = .left
     view.addGestureRecognizer(screenEdgePanGR)

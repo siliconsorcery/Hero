@@ -22,12 +22,12 @@ class MatchExampleViewController1: ExampleBaseViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    redView.backgroundColor = UIColor(hexString: "FC3A5E")!
+    redView.backgroundColor = .red //UIColor(hexString: "FC3A5E")!
     redView.hero.id = "ironMan"
     redView.cornerRadius = 8
     view.addSubview(redView)
 
-    blackView.backgroundColor = UIColor(hexString: "555555")!
+    blackView.backgroundColor = .black //UIColor(hexString: "555555")!
     blackView.hero.id = "batMan"
     blackView.cornerRadius = 8
     view.addSubview(blackView)
@@ -56,11 +56,11 @@ class MatchExampleViewController2: ExampleBaseViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    redView.backgroundColor = UIColor(hexString: "FC3A5E")!
+    redView.backgroundColor = .red //UIColor(hexString: "FC3A5E")!
     redView.hero.id = "ironMan"
     view.insertSubview(redView, belowSubview: dismissButton)
 
-    blackView.backgroundColor = UIColor(hexString: "555555")!
+    blackView.backgroundColor = .black //UIColor(hexString: "555555")!
     blackView.hero.id = "batMan"
     blackView.cornerRadius = 8
     view.addSubview(blackView)

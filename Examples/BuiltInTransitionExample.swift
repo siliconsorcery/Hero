@@ -49,7 +49,7 @@ import Hero
 class BuiltInTransitionExampleViewController1: ExampleBaseViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    view.backgroundColor = UIColor(hexString: "FC3A5E")!
+    view.backgroundColor = .red //UIColor(hexString: "FC3A5E")!
   }
 
   @objc override func onTap() {
@@ -73,6 +73,6 @@ class BuiltInTransitionExampleViewController1: ExampleBaseViewController {
 class BuiltInTransitionExampleViewController2: ExampleBaseViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    view.backgroundColor = UIColor(hexString: "555555")!
+    view.backgroundColor = .gray //UIColor(hexString: "555555")!
   }
 }
