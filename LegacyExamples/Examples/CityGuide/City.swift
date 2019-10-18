@@ -29,14 +29,22 @@ struct City {
   var description: String
 
   static var cities = [
+    
     City(name: "Vancouver",
          image: #imageLiteral(resourceName: "vancouver"),
          shortDescription: "City in British Columbia",
          description: "Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes. Vancouver Art Gallery is known for its works by regional artists, while the Museum of Anthropology houses preeminent First Nations collections."),
+    
+    City(name: "Mt. Shasta",
+         image: #imageLiteral(resourceName: "mtshasta"),
+         shortDescription: "City in Mt. Shasta",
+         description: "Mount Shasta is a city in Siskiyou County, California, at about 3,600 feet above sea level on the flanks of Mount Shasta, a prominent northern California landmark. The city is less than 9 miles southwest of the summit of its namesake volcano."),
+    
     City(name: "Toronto",
          image: #imageLiteral(resourceName: "toronto"),
          shortDescription: "City in Ontario",
          description: "Toronto, the capital of the province of Ontario, is a major Canadian city along Lake Ontario’s northwestern shore. It's a dynamic metropolis with a core of soaring skyscrapers, all dwarfed by the iconic CN Tower. Toronto also has many green spaces, from the orderly oval of Queen’s Park to 400-acre High Park and its trails, sports facilities and zoo."),
+    
     City(name: "Montreal",
          image: #imageLiteral(resourceName: "montreal"),
          shortDescription: "City in Québec",

@@ -17,18 +17,22 @@ class MainViewController: UIViewController {
   }
   
   func setupcollection() {
+    
     let dataSource = ArrayDataSource<SourceData>(data: [
+      
       (BuiltInTransitionExampleViewController1.self, "Built In Animations"),
       (MatchExampleViewController1.self, "Match Animation"),
       (MatchInCollectionExampleViewController1.self, "Match Cell in Collection"),
       (AppStoreViewController1.self, "App Store Transition"),
-      ])
+      
+      (MinimalHero.self, "Blue-Green"),
+    ])
     
     let viewSource = ClosureViewSource { (label: UILabel, data: SourceData, index) in
-      label.text = "\(index + 1). \(data.1)"
-      label.textAlignment = .center
-      label.layer.borderColor = UIColor.gray.cgColor
-      label.layer.borderWidth = 0.5
+      label.text = "  \(index + 1). \(data.1)"
+      label.textAlignment = .left
+      label.layer.borderColor = (index < 4) ? UIColor.orange.cgColor : UIColor.green.cgColor
+      label.layer.borderWidth = 1.5
       label.layer.cornerRadius = 8
     }
     
@@ -36,7 +40,7 @@ class MainViewController: UIViewController {
       return CGSize(width: size.width, height: 64)
     }
     
-    let examplesProvider = BasicProvider<SourceData, UILabel>(
+    let examplesProvider = BasicProvider<SourceData, UILabel> (
       dataSource: dataSource,
       viewSource: viewSource,
       sizeSource: sizeSource,
@@ -45,7 +49,6 @@ class MainViewController: UIViewController {
       let vc = context.data.0.init()
       self.present(vc, animated: true, completion: nil)
     }
-    // TODO: Migrate the example to CollectionKit 2.2.0
     
     let imageView = UIImageView(image: #imageLiteral(resourceName: "HeroLogo"))
     imageView.contentMode = .scaleAspectFit
@@ -58,8 +61,12 @@ class MainViewController: UIViewController {
     let legacyExamplesProvider = SimpleViewProvider(views: [legacyButton], sizeStrategy: (.fill, .fit))
     
     collectionView.provider = ComposedProvider(
-      layout: FlowLayout(lineSpacing: 10).inset(by: UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)),
-      sections: [imageProvider, examplesProvider, legacyExamplesProvider]
+      layout: FlowLayout(lineSpacing: 20).inset(by: UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)),
+      sections: [
+        imageProvider,
+        legacyExamplesProvider,
+        examplesProvider,
+      ]
     )
   }
   

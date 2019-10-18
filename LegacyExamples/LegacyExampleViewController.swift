@@ -27,9 +27,23 @@ class LegacyExampleViewController: UITableViewController {
 
   var storyboards: [[String]] = [
     [],
-    ["Basic", "Navigation", "MusicPlayer", "Menu", "BuiltInTransitions"],
-    ["CityGuide", "ImageViewer", "VideoPlayer"],
-    ["AppleHomePage", "ListToGrid", "ImageGallery"]
+    [
+      "Basic",
+      "Navigation",
+      "MusicPlayer",
+      "Menu",
+      "BuiltInTransitions",
+    ],
+    [
+      "CityGuide",
+      "ImageViewer",
+      "VideoPlayer",
+    ],
+    [
+      "AppleHomePage",
+      "ListToGrid",
+      "ImageGallery",
+    ]
   ]
 
   override func viewDidLayoutSubviews() {

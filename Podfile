@@ -4,7 +4,6 @@ target 'HeroExamples' do
   platform :ios, '9.0'
   use_frameworks!
   pod "CollectionKit"
-  # pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 end
 
 target 'HeroTvOSExamples' do

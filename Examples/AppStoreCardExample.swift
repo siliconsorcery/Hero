@@ -211,7 +211,7 @@ class AppStoreViewController2: ExampleBaseViewController {
     
     view.addSubview(visualEffectView)
     
-    cardView.titleLabel.text = "Hero 2"
+    cardView.titleLabel.text = "Hero World!"
     cardView.subtitleLabel.text = "App Store Card Transition"
     
     contentView.numberOfLines = 0

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fQX-WD-0mm">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fQX-WD-0mm">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Image Gallery View Controller-->
         <scene sceneID="xRf-Gi-jxF">
             <objects>
-                <viewController storyboardIdentifier="imageGallery" id="duR-aT-0jd" customClass="ImageGalleryViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="imageGallery" modalPresentationStyle="fullScreen" id="duR-aT-0jd" customClass="ImageGalleryViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jv7-Z1-Jad"/>
                         <viewControllerLayoutGuide type="bottom" id="0m5-KB-yjd"/>
@@ -92,7 +90,7 @@
         <!--Navigation Controller-->
         <scene sceneID="SGA-cG-MQO">
             <objects>
-                <navigationController id="fQX-WD-0mm" sceneMemberID="viewController">
+                <navigationController modalPresentationStyle="fullScreen" id="fQX-WD-0mm" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="VaI-Vz-win">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

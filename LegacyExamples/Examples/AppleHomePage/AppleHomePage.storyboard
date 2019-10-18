@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hC7-Hw-3Wq">
-    <device id="retina5_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hC7-Hw-3Wq">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--watch-->
         <scene sceneID="jmL-yE-aNc">
             <objects>
-                <viewController storyboardIdentifier="watch" title="watch" id="Jyp-vf-9Ct" customClass="AppleProductViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="watch" title="watch" modalPresentationStyle="fullScreen" id="Jyp-vf-9Ct" customClass="AppleProductViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mYe-gF-Jys"/>
                         <viewControllerLayoutGuide type="bottom" id="tVE-Ib-ePK"/>
@@ -29,7 +27,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qlp-Ss-wVH">
-                                <rect key="frame" x="151" y="163" width="112" height="41"/>
+                                <rect key="frame" x="151.66666666666666" y="162" width="110.66666666666666" height="42"/>
                                 <attributedString key="attributedText">
                                     <fragment content="">
                                         <attributes>
@@ -66,7 +64,7 @@
 SERIES 2</string>
                                         <attributes>
                                             <color key="NSColor" red="0.13797999999999999" green="0.12134" blue="0.12545000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="smallSystem"/>
+                                            <font key="NSFont" metaFont="message" size="11"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -76,7 +74,7 @@ SERIES 2</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introducing Series 2." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXx-VP-ibg">
-                                <rect key="frame" x="79.666666666666671" y="531" width="255.33333333333331" height="34"/>
+                                <rect key="frame" x="79.333333333333329" y="531" width="255.33333333333337" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
                                 <color key="textColor" red="0.13798230889999999" green="0.121344544" blue="0.12544536589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -131,7 +129,7 @@ SERIES 2</string>
         <!--macbook-->
         <scene sceneID="pet-zU-fdg">
             <objects>
-                <viewController storyboardIdentifier="macbook" title="macbook" id="xzU-1j-BE3" customClass="AppleProductViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="macbook" title="macbook" modalPresentationStyle="fullScreen" id="xzU-1j-BE3" customClass="AppleProductViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1aZ-3s-ozY"/>
                         <viewControllerLayoutGuide type="bottom" id="lgE-5R-GGQ"/>
@@ -144,7 +142,7 @@ SERIES 2</string>
                                 <rect key="frame" x="0.0" y="280" width="414" height="476"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A touch of genius." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJl-s5-uPY">
-                                <rect key="frame" x="95.666666666666671" y="181" width="223.33333333333331" height="34"/>
+                                <rect key="frame" x="95.333333333333329" y="181" width="223.33333333333337" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
                                 <color key="textColor" red="0.13798230889999999" green="0.121344544" blue="0.12544536589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -200,7 +198,7 @@ SERIES 2</string>
         <!--iphone-->
         <scene sceneID="YEA-Qk-pRX">
             <objects>
-                <viewController storyboardIdentifier="iphone" title="iphone" id="hC7-Hw-3Wq" customClass="AppleProductViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="iphone" title="iphone" modalPresentationStyle="fullScreen" id="hC7-Hw-3Wq" customClass="AppleProductViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9im-Ps-71S"/>
                         <viewControllerLayoutGuide type="bottom" id="jCX-1p-gzL"/>
@@ -216,7 +214,7 @@ SERIES 2</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8U-ip-pdE">
-                                <rect key="frame" x="172.66666666666666" y="153" width="69.333333333333343" height="26.666666666666657"/>
+                                <rect key="frame" x="172.33333333333334" y="153" width="69.333333333333343" height="26.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>

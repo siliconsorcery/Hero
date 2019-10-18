@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GbK-uB-s7f">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GbK-uB-s7f">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--List View-->
         <scene sceneID="6t3-uV-CG9">
             <objects>
-                <tableViewController storyboardIdentifier="list" title="List View" id="sHm-II-69l" customClass="ListTableViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="list" title="List View" modalPresentationStyle="fullScreen" id="sHm-II-69l" customClass="ListTableViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="72" sectionHeaderHeight="28" sectionFooterHeight="28" id="lXY-na-crF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,21 +24,21 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uLP-1s-Hdb">
-                                            <rect key="frame" x="82" y="8" width="34" height="21"/>
+                                            <rect key="frame" x="83" y="9" width="33.5" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i8P-VQ-wRT">
-                                            <rect key="frame" x="82" y="29" width="44" height="15"/>
+                                            <rect key="frame" x="83" y="29.5" width="44" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="Unsplash1_thumb" id="MUO-qC-BHr">
-                                            <rect key="frame" x="15" y="0.0" width="52" height="52"/>
+                                            <rect key="frame" x="16" y="0.0" width="52" height="52"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
@@ -75,7 +72,7 @@
         <!--Grid View-->
         <scene sceneID="m9u-G0-e2n">
             <objects>
-                <collectionViewController storyboardIdentifier="grid" id="jKh-Vv-2kH" customClass="GridCollectionViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="grid" modalPresentationStyle="fullScreen" id="jKh-Vv-2kH" customClass="GridCollectionViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Tl2-1T-oBt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,7 +154,7 @@
         <!--Navigation Controller-->
         <scene sceneID="vPE-4j-gAJ">
             <objects>
-                <navigationController id="GbK-uB-s7f" sceneMemberID="viewController">
+                <navigationController modalPresentationStyle="fullScreen" id="GbK-uB-s7f" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mBD-b8-heE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

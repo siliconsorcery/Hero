@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hDE-vd-kLY">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hDE-vd-kLY">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Menu View Controller-->
         <scene sceneID="FLe-99-9Fd">
             <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="hDE-vd-kLY" customClass="MenuViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hDE-vd-kLY" customClass="MenuViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <visualEffectView key="view" opaque="NO" contentMode="scaleToFill" id="T6f-AM-L85">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -24,7 +22,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <subviews>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tw-b7-MDk">
-                                            <rect key="frame" x="200" y="106" width="96" height="96"/>
+                                            <rect key="frame" x="199.5" y="105.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.8536429405" green="0.3644335568" blue="0.24528044460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="96" id="3zb-uc-Xuy"/>
@@ -43,7 +41,7 @@
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dC5-La-4Q6">
-                                            <rect key="frame" x="80" y="106" width="96" height="96"/>
+                                            <rect key="frame" x="79.5" y="105.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.65110915899999999" green="0.49157077069999999" blue="0.75600677729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="96" id="RfA-nf-3t0"/>
@@ -62,7 +60,7 @@
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mS-M0-ozC">
-                                            <rect key="frame" x="200" y="226" width="96" height="96"/>
+                                            <rect key="frame" x="199.5" y="225.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.96249228720000002" green="0.86748665570000005" blue="0.2182745636" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="96" id="4jG-A8-Yeg"/>
@@ -81,7 +79,7 @@
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLa-DC-TkS">
-                                            <rect key="frame" x="80" y="226" width="96" height="96"/>
+                                            <rect key="frame" x="79.5" y="225.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.60663342480000004" green="0.63835191729999996" blue="0.68026506900000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="96" id="27k-2m-Hc5"/>
@@ -100,7 +98,7 @@
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXz-0P-hCB">
-                                            <rect key="frame" x="200" y="346" width="96" height="96"/>
+                                            <rect key="frame" x="199.5" y="345.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.3231979311" green="0.62352418899999995" blue="0.80385208129999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="96" id="4f5-Kc-9Ah"/>
@@ -119,7 +117,7 @@
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eU-DD-3fj">
-                                            <rect key="frame" x="80" y="346" width="96" height="96"/>
+                                            <rect key="frame" x="79.5" y="345.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.33910316229999998" green="0.73554944990000004" blue="0.53971123700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="96" id="RLN-z9-AYa"/>
@@ -138,7 +136,7 @@
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zna-x2-9LS">
-                                            <rect key="frame" x="80" y="466" width="96" height="96"/>
+                                            <rect key="frame" x="79.5" y="465.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.92462307210000005" green="0.58727717400000001" blue="0.17350399490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="96" id="F1K-LL-2Tj"/>
@@ -158,7 +156,7 @@
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BB9-pA-7KT">
-                                            <rect key="frame" x="200" y="466" width="96" height="96"/>
+                                            <rect key="frame" x="199.5" y="465.5" width="96" height="96"/>
                                             <color key="backgroundColor" red="0.96854275469999995" green="0.96868163350000003" blue="0.96851247549999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="96" id="I3r-Zq-Baz"/>
@@ -239,7 +237,7 @@
         <!--Menu Page View Controller-->
         <scene sceneID="7u7-EV-Uun">
             <objects>
-                <viewController id="1JW-M4-2PL" customClass="MenuPageViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="1JW-M4-2PL" customClass="MenuPageViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aZj-SX-gLY"/>
                         <viewControllerLayoutGuide type="bottom" id="IBJ-NT-I3k"/>
@@ -249,7 +247,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEd-UG-rwi">
-                                <rect key="frame" x="139" y="285" width="96" height="96"/>
+                                <rect key="frame" x="139.5" y="285.5" width="96" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="96" id="ZQQ-DI-x6h"/>
                                     <constraint firstAttribute="height" constant="96" id="yWn-bX-Fxr"/>
@@ -266,7 +264,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7p-nX-6Yc">
-                                <rect key="frame" x="8" y="28" width="48" height="48"/>
+                                <rect key="frame" x="8" y="8" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="KeK-M4-afq"/>
                                     <constraint firstAttribute="height" constant="48" id="sVI-3e-Wdh"/>
